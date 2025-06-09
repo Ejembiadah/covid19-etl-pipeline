@@ -15,7 +15,7 @@ log_file = 'log_file.txt'
 
 # Extract covid-19_data from API
 def extract_covid_19_data(url):
-    #url = "https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/latest/owid-covid-latest.json"
+    url = "https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/latest/owid-covid-latest.json"
     response = requests.get(url)
     if response.status_code ==200:
         data = response.json()
