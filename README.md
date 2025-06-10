@@ -15,6 +15,7 @@ This project demonstrates a basic **ETL (Extract, Transform, Load)** pipeline us
 - **Python**
 - **PySpark**
 - **Pandas**
+- **Matplotlib**
 - **Requests** (for API access)
 
 
